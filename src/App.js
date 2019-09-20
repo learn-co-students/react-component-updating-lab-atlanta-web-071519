@@ -11,6 +11,7 @@ class App extends Component {
     timerIDs: []
   }
 
+  //componentDidMount calls a method to add one initial timer
   componentDidMount() {
     this.handleAddTimer()
   }
